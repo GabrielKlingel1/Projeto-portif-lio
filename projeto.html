@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Portifólio</title>
+    <link rel="stylesheet" href="projeto.css">
+</head>
+<body>
+    <aside>
+    <div>
+      <img src="foto de perfil.jpg" alt="Foto de Perfil">
+      <h1>Gabriel Nascimento</h1>
+      <p>Desenvolvedor Front-End</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#intro">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#contatos">Contato</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main>
+    <section id="intro" class="intro">
+      <h2>Sobre mim</h2>
+      <p>Estudante de programação full-stack e Análista de Sistemas.<br>
+Buscando uma oportunidade para aplicar meus conhecimentos e crescer na área de desenvolvimento web.<br>
+Atualmente trabalho com vendas, mas estou em transição de carreira para a área de tecnologia.</p>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3 (Flexbox, Grid)</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projetos" class="projetos">
+      <h2>Projetos</h2>
+      <div class="box-projeto">
+        <h3>Landing Page</h3>
+        <p>Criação de uma landing page chamativa para cadastro.para um projeto Hackaton</p>
+      </div>
+      <div class="box-projeto">
+        <h3>Perfil de Rede Social</h3>
+        <p>Criação de um perfil de redes sociais fake para estudo.</p>
+      </div>
+      <div class="box-projeto">
+        <h3>Aplicativo de Portfólio</h3>
+        <p>Aplicativo de portfólio interativo em React.</p>
+      </div>
+    </section>
+
+    <section id="experiencia" class="experiencia">
+      <h2>Experiência</h2>
+      <ul>
+        <li>
+          <strong>Diesel</strong>
+          Vendas (2021 - Atual)  
+           Captação e atendimento ao cliente no comercio varejista de loja de luxo.
+        </li>
+        <li>
+          <strong>Imobiliária Paulo Miranda</strong>
+          Corretor de Imóveis (2019 - 2021)  
+          Atendimento ao cliente, visitas a imóveis e fechamento de contratos.
+        </li>
+      </ul>
+    </section>
+
+    <section id="contatos" class="contatos">
+      <h2>Contato</h2>
+      <form onsubmit="return enviarFormulario(event)">
+        <input type="text" placeholder="Seu Nome" required>
+        <input type="email" placeholder="Seu Email" required>
+        <textarea rows="5" placeholder="Sua Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="social-links">
+        <a href="#">LinkedIn</a> | 
+        <a href="#">GitHub</a> | 
+        <a href="#">Instagram</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
